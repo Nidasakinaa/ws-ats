@@ -1,8 +1,9 @@
-module github.com/Nidasakinaa/ws-ats
+module github.com/Nidasakinaa/ws-ats.git
 
 go 1.22.1
 
 require (
+	github.com/Nidasakinaa/ws-ats v0.0.0-20240510131248-39cb2e9a2712
 	github.com/aiteung/atdb v0.1.7
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.52.4
@@ -13,6 +14,7 @@ require (
 require (
 	aidanwoods.dev/go-paseto v1.3.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
+	github.com/Nidasakinaa/beats v0.0.1 // indirect
 	github.com/aiteung/atapi v0.0.16 // indirect
 	github.com/aiteung/atmessage v0.0.27 // indirect
 	github.com/aiteung/atmodel v0.0.4 // indirect
@@ -35,7 +37,6 @@ require (
 	github.com/montanaflynn/stats v0.7.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
-	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/rs/zerolog v1.32.0 // indirect
 	github.com/savsgio/gotils v0.0.0-20230208104028-c358bd845dee // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect

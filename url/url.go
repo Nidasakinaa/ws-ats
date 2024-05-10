@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/Nidasakinaa/ws-ats/boilerplate2024-main/controller"
+	"github.com/Nidasakinaa/ws-ats/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -18,4 +18,5 @@ func Web(page *fiber.App) {
 	page.Options("/", controller.Sink)
 
 	page.Get("/checkip", controller.Homepage) //ujicoba panggil package musik
+	page.Get("/presensi", controller.GetAllBiodata)
 }

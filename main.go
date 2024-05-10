@@ -3,12 +3,12 @@ package main
 import (
 	"log"
 
-	"github.com/Nidasakinaa/ws-ats/boilerplate2024-main/config"
+	"github.com/Nidasakinaa/ws-ats/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
-	"github.com/Nidasakinaa/ws-ats/boilerplate2024-main/url"
+	"github.com/Nidasakinaa/ws-ats/url"
 
 	"github.com/gofiber/fiber/v2"
 )

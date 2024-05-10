@@ -16,6 +16,9 @@ var origins = []string{
 	"https://dias.ulbi.ac.id",
 	"https://iteung.ulbi.ac.id",
 	"https://whatsauth.github.io",
+	"https://nidasakinaa.github.io/",
+	"http://127.0.0.1:5500/",
+
 }
 
 var Internalhost string = os.Getenv("INTERNALHOST") + ":" + os.Getenv("PORT")

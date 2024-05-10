@@ -1,9 +1,10 @@
 package controller
 
 import (
-	"github.com/Nidasakinaa/beats/module"
+	cek "github.com/Nidasakinaa/beats/module"
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
+	"github.com/Nidasakinaa/ws-ats/config"
 )
 
 func Homepage(c *fiber.Ctx) error {
@@ -11,7 +12,7 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 
-func GetAllBiodata(c *fiber.Ctx) error {
-	ps := module.GetAllBiodata()
+func GetAllBiodatas(c *fiber.Ctx) error {
+	ps := cek.GetAllBiodata(config.Ulbimongoconn, "Biodata")
 	return c.JSON(ps)
 }

@@ -8,17 +8,12 @@ require (
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.52.4
 	github.com/whatsauth/whatsauth v0.2.9
-	go.mau.fi/whatsmeow v0.0.0-20240507080416-01b0547014dc
+	go.mau.fi/whatsmeow v0.0.0-20240520180327-81f8f07f1dfb
 )
 
 require (
 	aidanwoods.dev/go-paseto v1.3.0 // indirect
-<<<<<<< HEAD
-	filippo.io/edwards25519 v1.0.0 // indirect
-	github.com/Nidasakinaa/beats v0.0.1 // indirect
-=======
 	filippo.io/edwards25519 v1.1.0 // indirect
->>>>>>> 5b1bbcc6e8ee65d9db87bb6cbdb5f77da5f2e869
 	github.com/aiteung/atapi v0.0.16 // indirect
 	github.com/aiteung/atmessage v0.0.27 // indirect
 	github.com/aiteung/atmodel v0.0.4 // indirect
@@ -54,6 +49,7 @@ require (
 	go.mau.fi/util v0.4.1 // indirect
 	go.mongodb.org/mongo-driver v1.15.0 // indirect
 	golang.org/x/crypto v0.23.0 // indirect
+	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.15.0 // indirect

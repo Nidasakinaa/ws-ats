@@ -12,7 +12,7 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 
-func GetAllBiodatas(c *fiber.Ctx) error {
-	ps := cek.GetAllBiodata(config.Ulbimongoconn, "Biodata")
+func GetAllBiodata(c *fiber.Ctx) error {
+	ps := cek.GetAllBiodata(config.Ulbimongoconn, "biodata")
 	return c.JSON(ps)
 }
